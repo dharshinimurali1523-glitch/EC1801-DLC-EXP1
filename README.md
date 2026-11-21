@@ -65,8 +65,9 @@ endmodule
 
     
 ## Truth Table
+<img width="826" height="362" alt="image" src="https://github.com/user-attachments/assets/8ec9d7fd-35e8-4ac7-9fa9-73955846fcb5" />
+
  
-<img width="795" height="311" alt="image" src="https://github.com/user-attachments/assets/dd4ba5b9-016b-4ae5-a693-f309c60c4c0e" />
 
 ## Simulation Procedure
 STEP 1 – Open Terminal
@@ -108,6 +109,8 @@ o	F
 5.	Verify that F = 1 whenever B and D are equal.
 6.	Verify that F = 0 whenever B and D are different.
 The waveform should agree with the truth table.
+<img width="676" height="462" alt="image" src="https://github.com/user-attachments/assets/02b925c0-7e4e-458d-89d1-41b017606364" />
+
  
 ### Expected Result
 The Boolean function
@@ -116,25 +119,13 @@ was minimized to F=B'D'+BD.
 and successfully implemented using Verilog HDL.
 
 ## OUTPUT
+<img width="1920" height="1080" alt="Screenshot (36)" src="https://github.com/user-attachments/assets/a2c850f0-e40e-48bd-9b9e-dba61187e890" />
+
 
 
 
 The design was compiled and simulated using Synopsys VCS, and the functionality was verified using DVE waveform analysis.
-7. Viva-Voce Questions
-1.	What is Boolean function minimization?
-2.	What is a minterm?
-3.	What is a Karnaugh map?
-4.	Why is Boolean minimization required?
-5.	What are universal gates?
-6.	What is the difference between SOP and POS?
-7.	What is the purpose of a Verilog testbench?
-8.	Why is a VCD file generated?
-9.	What is the purpose of ./simv?
-10.	What is the purpose of DVE?
-11.	What is the difference between simulation and synthesis?
-12.	Why are A and C absent from the minimized expression?
-13.	What is the purpose of $dumpfile?
-14.	What is the purpose of $dumpvars?
+
 
 Result
 Thus, the Boolean function was minimized, implemented using Verilog HDL, successfully simulated using Synopsys VCS, and verified using Synopsys DVE.
